@@ -14,8 +14,8 @@ pipeline {
     }
     stages {
         stage('Example') {
-            environment {
-                DEBUG_FLAGS = '-g'
+            steps{
+              echo 'multi branch'
             }
             steps {
                 sh 'pip install'
