@@ -24,7 +24,7 @@ pipeline {
                 echo 'Staging is done'
             }
         }
-         stage('Deploy') {
+         stage('Edited File') {
             steps {
                 echo 'Deployment is done'
             }
